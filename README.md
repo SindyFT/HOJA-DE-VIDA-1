@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida CV - Sindy Fonte </title>
+    <title>Hoja de Vida CV - Sindy Fonte</title>
     <style>
         * {
             margin: 0;
@@ -23,15 +22,13 @@
             display: flex;
             width: 90%;
             max-width: 1200px;
-            height: 90vh;
+            height: 70vh; /* Ajuste para ser más horizontal */
             background: white;
             color: #333;
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
         }
-
-
         .contact-info, .links {
             margin-top: 20px;
             text-align: left;
@@ -206,42 +203,39 @@
     </style>
 </head>
 <body>
-
     <div class="container">
         <!-- Barra lateral -->
         <div class="sidebar">
-            <img src=".." alt="../hv/FOOTO.1jpg" alt="Foto de perfil">
-            <h2>Sindy Fonte </h2>
+            <img src="C:\Users\sindy\Downloads\FOOTO.jpg" alt="Foto de perfil">
+            <h2>Sindy Fonte</h2>
             <div class="contact-info">
                 <p><strong>Correo:</strong> <a href="mailto:luial2@correo.ugr.es">Sindy.melft05@correo.ugr.es</a></p>
-                <p><strong>Teléfono:</strong> <a href="tel:+573176990561">+593 981135571 </a></p>
+                <p><strong>Teléfono:</strong> <a href="tel:+573176990561">+593 981135571</a></p>
             </div>
             <br>
             <div class="links">
                 <h3>Links Externos</h3>
                 <a href="#">Hoja de vida PDF</a>
                 <a href="#">LinkedIn</a>
-
             </div>
         </div>
 
-
         <!-- Sección Principal -->
         <div class="main-content">
-            <div class="title">HOJA DE VIDA </div>
+            <div class="title">HOJA DE VIDA</div>
 
             <div class="bio">
                 <h2>Biografía</h2>
-                <p>Ingeniera en Logística y Transporte graduada de la Universidad Politécnica Estatal del Carchi, con sólida formación en gestión logística, análisis de datos, y manejo de KPIs. Experta en herramientas analíticas como Power BI y en la implementación de software ERP, como Odoo, entre otros, para optimizar procesos y mejorar la eficiencia operativa. Proactiva, con habilidades en trabajo en equipo y resolución de problemas. ...</p>
+                <p>Ingeniera en Logística y Transporte graduada de la Universidad Politécnica Estatal del Carchi, con sólida formación en gestión logística, análisis de datos, y manejo de KPIs. Experta en herramientas analíticas como Power BI y en la implementación de software ERP, como Odoo, entre otros, para optimizar procesos y mejorar la eficiencia operativa. Proactiva, con habilidades en trabajo en equipo y resolución de problemas.</p>
             </div>
             <div class="interests">
                 <h2>Intereses Profesionales</h2>
                 <ul>
-                    <li>Logística y Cadena de Suministro </li>
+                    <li>Logística y Cadena de Suministro</li>
                     <li>Transporte y Operaciones</li>
                     <li>Gestión de Compras y Abastecimiento</li>
                     <li>Consultoría en optimización de procesos logísticos y operativos</li>
-                    <li>Logística para eventos y conciertos </li>
+                    <li>Logística para eventos y conciertos</li>
                     <li>Gestión de inventario y transporte en producciones Audiovisuales.</li>
                     <li>Automatización y Digitalización Logística</li>
                 </ul>
@@ -281,6 +275,5 @@
             yearContent.style.display = yearContent.style.display === 'block' ? 'none' : 'block';
         }
     </script>
-
 </body>
 </html>
